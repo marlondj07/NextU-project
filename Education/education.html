@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,user-scalable=no">
+    <title>Educación</title>
+	</head>
+	<body>
+		<header>
+			<svg width="108" height="63" style="border: 2px solid black">
+		    <image xlink:href="../images/logo.svg" width="110" height="62" x="0" y="0"></image>
+		  </svg>
+			<h1>Hoja de Vida</h1>
+		</header>
+		<nav>
+			<h2>Marlon Rincon Floriano</h2>
+			<h3>Fecha de nacimiento: 04 de Marzo de 1989</h3>
+			<h3>Lugar de nacimiento: Villavicencio, Meta Colombia</h3>
+			<h4>Menú</h4>
+			<ul>
+				<li><a href="../index.html">Inicio</a></li>
+				<li><a href="Education/education.html">Educación</a></li>
+				<li><a href="experience.html">Experiencia</a></li>
+			</ul>
+		</nav>
+	  <section>
+	    <article class="eduArt1">
+	        <h2>Educación</h2>
+	        <table border="1">
+	          <thead>
+	            <th>Año</th>
+	            <th>Institución</th>
+	            <th>Lugar</th>
+	            <th>¿Culminó?</th>
+	          </thead>
+	          <tr>
+	            <td>2010</td>
+	            <td>Colegio Altos Estándares</td>
+	            <td>Villavicencio, Meta</td>
+	            <td>Si</td>
+	          </tr>
+	          <tr>
+	            <td>2015</td>
+	            <td>Universidad Altos Estándares</td>
+	            <td>Pamplona, Norte de Santander</td>
+	            <td>Sí</td>
+	          </tr>
+	        </table>
+	    </article>
+	    <article class="eduart2">
+	      <form name="eduform1" method="post">
+	        <fieldset>
+	          <legend><h2>Agregar Estudios</h2></legend>
+	          <label for="studyyear">Año:</label>
+	          <select name="studyyear">
+	            <option value="value1">2015</option>
+	            <option value="value2">2016</option>
+	            <option value="value3">2017</option>
+	          </select><br>
+	          <label for="institution">Institución:</label>
+	          <input type="text" name="institution" required><br>
+	          <label for="place">Lugar:</label><br>
+	  				<textarea name="place" rows="8" cols="40"></textarea><br>
+	          <label for="end">¿Culminó?:</label>
+	          <input type="radio" name="end" value="y">Si
+	          <input type="radio" name="end" value="n">No<br>
+	          <input type="button" name="senddata" value="Enviar">
+	        </fieldset>
+	      </form>
+	    </article>
+	  </section>
+		<footer>
+			<h3>Contacto</h3>
+			<ul>
+				<li><h4>Email: marlondj07@gmail.com</h4></li>
+				<li>	<h4>Teléfono: +57 555555</h4></li>
+				<li><h4>Dirección: Carrera 5 Calle 5 - 5</h4></li>
+			</ul>
+		</footer>
+	</body>
+</html>
